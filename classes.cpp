@@ -2,6 +2,8 @@
 //hello
 int x;
 
+// testing out branches -peyton
+
 //creating a class
 class lidar{
     public: // access specifier (basically what can access these attributes)
@@ -18,7 +20,7 @@ class lidar{
     //returns the raw lidar data (int) as usable data (int) of the called upon lidar class 
     int readLidar(){
         return lidarName;
-    } 
+    }
 };
 
 //both readLidar and lidar are called "methods" these are basically functions that are specific to a class
