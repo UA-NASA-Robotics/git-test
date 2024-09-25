@@ -9,7 +9,7 @@ int x;
 class lidar{
     public: // access specifier (basically what can access these attributes)
     int motorSpeed; // attribute
-    int lidarName = 1; // attribute
+    int lidarName = 2; // attribute
 
     //sets motorSpeed (int) and lidarName (int)
     lidar(int setMotorSpeed, int setLidarName){ //this is called a constructor, it is used to create new object from a class
